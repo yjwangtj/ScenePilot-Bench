@@ -1,0 +1,5 @@
+peft==0.17.1
+Pillow==12.0.0
+qwen_vl_utils==0.0.14
+torch==2.8.0
+transformers==4.57.1
