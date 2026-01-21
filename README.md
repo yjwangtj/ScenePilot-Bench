@@ -10,7 +10,7 @@
 [![Paper](https://img.shields.io/badge/Paper-Arxiv-red?style=flat-square)](#)
 
 # 📖 Introduction
-[此处留空，待补充简介文字。]
+We introduce ScenePilot-Bench, a large-scale first-person driving benchmark designed to evaluate vision-language models (VLMs) in autonomous driving scenarios. ScenePilot-Bench is built upon ScenePilot-4K, a diverse dataset comprising 3,847 hours of driving videos from 63 countries and regions, annotated with multi-granularity information including scene descriptions, risk assessments, key participant identification, ego trajectories, and camera parameters. The benchmark features a four-axis evaluation suite that assesses VLM capabilities in scene understanding, spatial perception, motion planning, and GPT-Score, with safety-aware metrics and cross-region generalization settings. We benchmark representative VLMs on ScenePilot-Bench, providing empirical analyses that clarify current performance boundaries and identify gaps for driving-oriented reasoning. ScenePilot-Bench offers a comprehensive framework for evaluating and advancing VLMs in safety-critical autonomous driving contexts.
 
 # 🛠️ Installation
 
@@ -144,5 +144,6 @@ Before running the script, please ensure the following paths are properly config
 ## License
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
