@@ -7,7 +7,7 @@
 
 [![Project Page](https://img.shields.io/badge/Project-Website-blue?style=flat-square)](https://github.com/yjwangtj/ScenePilot-Bench)
 [![Dataset](https://img.shields.io/badge/Dataset-Download-green?style=flat-square)](https://huggingface.co/datasets/larswangtj/ScenePilot-4K/tree/main) 
-[![Paper](https://img.shields.io/badge/Paper-Arxiv-red?style=flat-square)](#)
+[![Paper](https://img.shields.io/badge/Paper-Arxiv-red?style=flat-square)](https://arxiv.org/abs/2601.19582)
 
 # 📖 Introduction
 We introduce ScenePilot-Bench, a large-scale first-person driving benchmark designed to evaluate vision-language models (VLMs) in autonomous driving scenarios. ScenePilot-Bench is built upon ScenePilot-4K, a diverse dataset comprising 3,847 hours of driving videos from 63 countries and regions, annotated with multi-granularity information including scene descriptions, risk assessments, key participant identification, ego trajectories, and camera parameters. The benchmark features a four-axis evaluation suite that assesses VLM capabilities in scene understanding, spatial perception, motion planning, and GPT-Score, with safety-aware metrics and cross-region generalization settings. We benchmark representative VLMs on ScenePilot-Bench, providing empirical analyses that clarify current performance boundaries and identify gaps for driving-oriented reasoning. ScenePilot-Bench offers a comprehensive framework for evaluating and advancing VLMs in safety-critical autonomous driving contexts.
@@ -133,11 +133,14 @@ Before running the script, please ensure the following paths are properly config
 ## Citation
 
 ```bibtex
-@article{scenepilot,
-  title={ScenePilot-Bench: A Large-Scale First-Person Dataset and Benchmark for Evaluation of Vision-Language Models in Autonomous Driving},
-  author={Yujin Wang, Yutong Zheng, Wenxian Fan, Jinlong Hong, Wei Tiana,Haiyang Yu, Bingzhao Gao, Jianqiang Wang, Hong Chen},
-  journal={arXiv preprint},
-  year={2025}
+@misc{wang2026scenepilotbenchlargescaledatasetbenchmark,
+      title={ScenePilot-Bench: A Large-Scale Dataset and Benchmark for Evaluation of Vision-Language Models in Autonomous Driving}, 
+      author={Yujin Wang and Yutong Zheng and Wenxian Fan and Tianyi Wang and Hongqing Chu and Daxin Tian and Bingzhao Gao and Jianqiang Wang and Hong Chen},
+      year={2026},
+      eprint={2601.19582},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2601.19582}, 
 }
 ```
 
