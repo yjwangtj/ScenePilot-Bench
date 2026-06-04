@@ -7,6 +7,8 @@ Due to copyright and privacy constraints, we cannot release any original videos 
 
 The main contribution of this project is an open, scalable data annotation pipeline for large scale driving video data, together with reference annotations that can help the community build datasets for pretraining, fine tuning, and downstream autonomous driving tasks.
 
+The code for the dataset construction pipeline is still under further maintenance and refinement. We appreciate your patience and understanding.
+
 <div align="center">
   <img src="assets/fig1.png" width="800px">
   <p>Figure 1: Overview of the ScenePilot-Bench benchmark and evaluation metrics.</p>
