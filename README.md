@@ -1,10 +1,11 @@
 # **ScenePilot-4K: A Large-Scale First-Person Dataset and Benchmark for Vision-Language Models in Autonomous Driving**
 
-# 📄 Supplementary Material
-The supplementary material is now publicly available and includes additional details on the dataset construction pipeline, benchmark design, evaluation metrics, etc.
+# Friendly Reminder
+The original videos used in this project were collected from publicly available online driving videos. Since online videos may be updated, removed, or become inaccessible over time, the released annotation files on Hugging Face are intended as reference materials and may not exactly reproduce the dataset used in our experiments.
 
-👉 **Access the supplementary material here:**  
-[Supplementary Material (PDF)](https://drive.google.com/file/d/14CisDMqTLfFrd8PADajuL0TNR5V90BSr/view?usp=drive_link)
+Due to copyright and privacy constraints, we cannot release any original videos or extracted image frames. We recommend that users collect publicly available driving videos according to their own research needs and use the provided pipeline code and annotation utilities to construct new datasets.
+
+The main contribution of this project is an open, scalable data annotation pipeline for large scale driving video data, together with reference annotations that can help the community build datasets for pretraining, fine tuning, and downstream autonomous driving tasks.
 
 <div align="center">
   <img src="assets/fig1.png" width="800px">
